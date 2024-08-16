@@ -13,15 +13,19 @@ function App() {
   const [recipeItems, setRecipesItems] = useState([])
    
   const handelRecipeItems = cook =>{
-   const isExist = recipeItems.find(recipe=>recipe.id == cook.id);
-   if(!isExist){
-    // const newRecipeItems = [...recipeItems,cook]
-    setRecipesItems([...recipeItems,cook])
-   }
-   else{
-    alert('Alrady exsist')
- 
-   }
+  
+    const isExist = recipeItems.find(item => item.recipe_id === cook.recipe_id);
+    if(!isExist){
+      const newRecipeItems = [...recipeItems,cook];
+      setRecipesItems(newRecipeItems);
+    }
+    else{
+      alert('This recipe is already added!')
+    }
+   
+    
+   
+   
   }
  
 

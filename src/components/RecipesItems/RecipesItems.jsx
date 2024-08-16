@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
+import RecipeItem from '../RecipeItem/RecipeItem';
 
 const RecipesItems = ({recipeItems}) => {
-    const {recipe_name,Preparing_time,Calories }= recipeItems
     return (
         <div className='w-1/3 text-center '>
             
@@ -15,15 +15,9 @@ const RecipesItems = ({recipeItems}) => {
 
             <div className='border-2 rounded-lg p-2'>
              {
-                recipeItems.map((recipe, index) => (
-                    <div key={index} className='my-2 flex '>
-                        <h2 className='mr-2'>{index + 1}.</h2>
-                        <h3 className='mr-2'>{recipe.recipe_name}</h3>
-                        <h4 className='mr-2'>{recipe.Preparing_time} </h4>
-                        <h4 className='mr-2'>{recipe.Calories} </h4>
-                        <button className='bg-green-400 p-2 rounded-lg'>Preparing</button>
-                    </div>
-                ))
+                recipeItems.map((recipeItem,index) => <RecipeItem key={index} recipeItem={recipeItem}></RecipeItem>)
+                    
+                
             }
               
              

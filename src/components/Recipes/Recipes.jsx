@@ -14,7 +14,7 @@ const Recipes = ({handelRecipeItems}) => {
         <div className="w-3/4 grid grid-cols-1 lg:grid-cols-2 gap-5 px-4 ">
             {
                 recipes.map(recipe =><Recipe
-                key={recipe.id}
+                key={recipe.recipe_id}
                 recipe = {recipe}
                 handelRecipeItems ={handelRecipeItems}
                 ></Recipe>)
