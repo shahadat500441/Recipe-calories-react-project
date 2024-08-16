@@ -1,0 +1,86 @@
+[
+    {
+        "recipe_id": "001",
+        "recipe_image": "https://example.com/images/spaghetti.jpg",
+        "recipe_name": "Classic Spaghetti Bolognese",
+        "short_description": "A hearty Italian classic with rich, savory meat sauce.",
+        "Ingredients": [
+            "250 g Spaghetti",
+            "300 g Ground beef",
+            "400 ml Tomato sauce",
+            "1 Onion"
+        ],
+        "Preparing_time": "45 minutes",
+        "Calories": "600 calories"
+    },
+    {
+        "recipe_id": "002",
+        "recipe_image": "https://example.com/images/chicken_curry.jpg",
+        "recipe_name": "Creamy Chicken Curry",
+        "short_description": "A flavorful curry with tender chicken and a creamy, spiced sauce.",
+        "Ingredients": [
+            "500 g Chicken breast",
+            "400 ml Coconut milk",
+            "2 tbsp Curry powder",
+            "1 Onion"
+        ],
+        "Preparing_time": "40 minutes",
+        "Calories": "550 calories"
+    },
+    {
+        "recipe_id": "003",
+        "recipe_image": "https://example.com/images/vegan_tacos.jpg",
+        "recipe_name": "Vegan Tacos",
+        "short_description": "Delicious and healthy tacos with a savory mix of vegetables and spices.",
+        "Ingredients": [
+            "8 Corn tortillas",
+            "1 can Black beans",
+            "1 cup Corn kernels",
+            "1 Avocado"
+        ],
+        "Preparing_time": "25 minutes",
+        "Calories": "350 calories"
+    },
+    {
+        "recipe_id": "004",
+        "recipe_image": "https://example.com/images/chocolate_cake.jpg",
+        "recipe_name": "Decadent Chocolate Cake",
+        "short_description": "A rich and moist chocolate cake topped with creamy frosting.",
+        "Ingredients": [
+            "200 g Flour",
+            "75 g Cocoa powder",
+            "200 g Sugar",
+            "2 Eggs"
+        ],
+        "Preparing_time": "60 minutes",
+        "Calories": "800 calories"
+    },
+    {
+        "recipe_id": "005",
+        "recipe_image": "https://example.com/images/greek_salad.jpg",
+        "recipe_name": "Greek Salad",
+        "short_description": "A refreshing salad with crisp vegetables, feta cheese, and olives.",
+        "Ingredients": [
+            "1 Cucumber",
+            "2 Tomatoes",
+            "150 g Feta cheese",
+            "100 g Kalamata olives"
+        ],
+        "Preparing_time": "15 minutes",
+        "Calories": "200 calories"
+    },
+    {
+        "recipe_id": "006",
+        "recipe_image": "https://example.com/images/pancakes.jpg",
+        "recipe_name": "Fluffy Pancakes",
+        "short_description": "Light and fluffy pancakes perfect for a weekend breakfast.",
+        "Ingredients": [
+            "200 g Flour",
+            "250 ml Milk",
+            "2 Eggs",
+            "2 tbsp Sugar"
+        ],
+        "Preparing_time": "20 minutes",
+        "Calories": "400 calories"
+    }
+]
