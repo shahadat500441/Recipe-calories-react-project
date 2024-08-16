@@ -4,7 +4,7 @@ import { CiClock2 } from "react-icons/ci";
 import { FaFire } from "react-icons/fa";
 
 const Recipe = ({recipe,handelRecipeItems}) => {
-    console.log(recipe)
+    
     const { recipe_image,recipe_name,short_description,Preparing_time, Ingredients,Calories } = recipe
     return (
         
