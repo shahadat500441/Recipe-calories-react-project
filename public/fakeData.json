@@ -1,7 +1,7 @@
 [
     {
         "recipe_id": "001",
-        "recipe_image": "https://example.com/images/spaghetti.jpg",
+        "recipe_image": "https://i.ibb.co/5LQqHCr/green-8667981-640.jpg",
         "recipe_name": "Classic Spaghetti Bolognese",
         "short_description": "A hearty Italian classic with rich, savory meat sauce.",
         "Ingredients": [
@@ -15,7 +15,7 @@
     },
     {
         "recipe_id": "002",
-        "recipe_image": "https://example.com/images/chicken_curry.jpg",
+        "recipe_image": "https://i.ibb.co/w7ZPkdw/meal-7707134-640.jpg",
         "recipe_name": "Creamy Chicken Curry",
         "short_description": "A flavorful curry with tender chicken and a creamy, spiced sauce.",
         "Ingredients": [
@@ -29,7 +29,7 @@
     },
     {
         "recipe_id": "003",
-        "recipe_image": "https://example.com/images/vegan_tacos.jpg",
+        "recipe_image": "https://i.ibb.co/y0pbBZ1/mushrooms-1351561-640.jpg",
         "recipe_name": "Vegan Tacos",
         "short_description": "Delicious and healthy tacos with a savory mix of vegetables and spices.",
         "Ingredients": [
@@ -43,7 +43,7 @@
     },
     {
         "recipe_id": "004",
-        "recipe_image": "https://example.com/images/chocolate_cake.jpg",
+        "recipe_image": "https://i.ibb.co/cLhcVPS/myles-tan-IWClj-Yv1-TJw-unsplash.jpg",
         "recipe_name": "Decadent Chocolate Cake",
         "short_description": "A rich and moist chocolate cake topped with creamy frosting.",
         "Ingredients": [
@@ -57,7 +57,7 @@
     },
     {
         "recipe_id": "005",
-        "recipe_image": "https://example.com/images/greek_salad.jpg",
+        "recipe_image": "https://i.ibb.co/h8X3MN1/spaghetti-6639970-640.jpg",
         "recipe_name": "Greek Salad",
         "short_description": "A refreshing salad with crisp vegetables, feta cheese, and olives.",
         "Ingredients": [
@@ -71,7 +71,7 @@
     },
     {
         "recipe_id": "006",
-        "recipe_image": "https://example.com/images/pancakes.jpg",
+        "recipe_image": "https://i.ibb.co/CJqyhvt/woman-6754248-640-1.jpg",
         "recipe_name": "Fluffy Pancakes",
         "short_description": "Light and fluffy pancakes perfect for a weekend breakfast.",
         "Ingredients": [
