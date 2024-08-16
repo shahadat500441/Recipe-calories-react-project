@@ -13,6 +13,7 @@ const RecipeItem = ({recipeItem}) => {
     );
 };
 RecipeItem.propTypes = {
+   recipeItem: PropTypes.func.isRequired,
     recipe_name: PropTypes.string.isRequired
 }
 
