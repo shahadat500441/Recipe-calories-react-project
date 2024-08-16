@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import Recipe from "../Recipe/Recipe";
+import PropTypes from 'prop-types';
 
 
-const Recipes = () => {
+const Recipes = ({handelRecipeItems}) => {
     const [recipes, setRecipes] = useState([])
     useEffect(()=>{
         fetch('fakeData.json')
@@ -15,10 +16,15 @@ const Recipes = () => {
                 recipes.map(recipe =><Recipe
                 key={recipe.id}
                 recipe = {recipe}
+                handelRecipeItems ={handelRecipeItems}
                 ></Recipe>)
             }
         </div>
     );
 };
+
+Recipes.propTypes = {
+    handelRecipeItems: PropTypes.func.isRequired
+}
 
 export default Recipes;

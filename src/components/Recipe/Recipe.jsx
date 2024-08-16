@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import { SiIngress } from 'react-icons/si';
+
 import { CiClock2 } from "react-icons/ci";
 import { FaFire } from "react-icons/fa";
 
-const Recipe = ({recipe}) => {
+const Recipe = ({recipe,handelRecipeItems}) => {
     console.log(recipe)
     const { recipe_image,recipe_name,short_description,Preparing_time, Ingredients,Calories } = recipe
     return (
@@ -28,7 +28,9 @@ const Recipe = ({recipe}) => {
                         <FaFire /> <span>{Calories}</span>
                     </div>
                 </div>
-                <button className=' bg-green-400 px-5 py-3 rounded-xl font-serif mt-3'>Want to Cook</button>
+                <button
+                    onClick={()=>handelRecipeItems(recipe)}
+                className=' bg-green-400 px-5 py-3 rounded-xl font-serif mt-3'>Want to Cook</button>
            </div>
         
     );
@@ -43,5 +45,6 @@ Recipe.propTypes = {
     Preparing_time: PropTypes.string.isRequired,
     Ingredients: PropTypes.array.isRequired,
     Calories: PropTypes.number.isRequired,
+    handelRecipeItems: PropTypes.func.isRequired,
 };
 export default Recipe;

@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import './App.css'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
@@ -8,6 +9,13 @@ import RecipesItems from './components/RecipesItems/RecipesItems.jsx'
 
 
 function App() {
+
+  const [recipeItems, setRecipesItems] = useState([])
+   
+  const handelRecipeItems = cook =>{
+   const newRecipeItems = [...recipeItems,cook]
+   setRecipesItems(newRecipeItems)
+  }
   
 
   return (
@@ -15,8 +23,10 @@ function App() {
         <Header></Header>
         <Hero></Hero>
           <div className='flex mt-7'>
-            <Recipes></Recipes>
-            <RecipesItems></RecipesItems>
+            <Recipes
+              handelRecipeItems={handelRecipeItems}
+            ></Recipes>
+            <RecipesItems recipeItems={recipeItems}></RecipesItems>
           </div>
     </div>
   )
